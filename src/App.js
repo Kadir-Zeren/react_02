@@ -1,9 +1,17 @@
+import Content from "./Content"
+import { Footer } from "./Footer"
+import Header from "./Header"
+
+//! CSS dosylari dogrudan import edilir. Export edilmelerine gerek yoktur.
+import "./App.css"
+
 function App() {
-  //? js kodları
+  console.log("deneme")
   return (
-    //? JSX (Javascript - HTML)
-    <div className="App">
-      <h1>Hello React</h1>
+    <div>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   )
 }
